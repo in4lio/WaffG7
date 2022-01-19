@@ -32,8 +32,8 @@ function answers_form(answers) {
 function nav_form(label) {
     let result = "<form>";
     result += `<label class='w_label'>${label}</label>`
-    result += "<input type='button' class='w_button' value='Prev' id='prev-button' onclick='prev()'>"
-    result += "<input type='button' class='w_button' value='Next' id='next-button' onclick='next()'>"
+    result += "<input type='button' class='w_button' value='&larr;' id='prev-button' onclick='prev()'>"
+    result += "<input type='button' class='w_button' value='&rarr;' id='next-button' onclick='next()'>"
     result += "<input type='button' class='w_button' value='Random' id='next-button' onclick='random_question()'>"
     result += "<select class='w_button' id='chapter_list' onchange='question_index = parseInt(this.value); show_question()'>"
     result += `<option value="0">Chapter</option>`
@@ -54,7 +54,6 @@ function show_question() {
     $("#id_id").html(nav_form(question_index + 1 + ": " + question["id"]));
     $("#id_de_question").text(question["de_q"]);
     $("#id_de_answer").html(answers_form(question["de_a"]));
-
 
     $("#id_en_question").text(question["en_q"]);
     $("#id_en_answer").html(answers_list(question["en_a"]));
