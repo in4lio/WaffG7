@@ -1,0 +1,39 @@
+.w_div {
+    background-color: #43464b;
+    font-family: 'Arial';
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 30px;
+
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid  #c9b3c4;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #302e2e;
+}
+
+.w_label {
+    display: inline-block;
+    width: 100px;
+}
+
+.question::first-letter {
+    font-size: 26px;
+    font-weight: bold;
+    color: #996885;
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.w_button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+body {
+    background-color: #96547a;
+}
