@@ -29,29 +29,33 @@ function answers_form(answers) {
     return result;
 }
 
-function nav_form(label) {
+function nav_form(qinx, qid) {
     let result = "<form>";
-    result += `<label class='w_label'>${label}</label>`
+    result += `<input type='number' class='w_button' value='${qinx + 1}' min="1" max="700" id='question-index' onchange='question_index = parseInt(this.value) - 1; show_question()'>`
+    result += `<label class='w_label'>${qid}</label>`
     result += "<input type='button' class='w_button' value='&larr;' id='prev-button' onclick='prev()'>"
     result += "<input type='button' class='w_button' value='&rarr;' id='next-button' onclick='next()'>"
-    result += "<input type='button' class='w_button' value='Random' id='next-button' onclick='random_question()'>"
-    result += "<select class='w_button' id='chapter_list' onchange='question_index = parseInt(this.value); show_question()'>"
+    result += "<select class='w_button' id='chapter-list' onchange='question_index = parseInt(this.value); show_question()'>"
     result += `<option value="0">Chapter</option>`
     for (let k in kChapters) {
         result += `<option value="${kChapters[k]}">${k}</option>`
     }
     result += "</select>"
-    result += "<input type='button' class='w_button' value='Wrong' id='next-button' onclick='wrong_question()'>"
-    result += "<input type='button' class='w_button' value='Show' id='next-button' onclick='show()'>"
-    result += "<input type='button' class='w_button' value='Check' id='next-button' onclick='check()'>"
+    result += "<input type='button' class='w_button' value='Random' id='random-button' onclick='random_question()'>"
+    result += "<input type='button' class='w_button' value='Wrong' id='wrong-button' onclick='wrong_question()'>"
+    result += "<input type='button' class='w_button' value='Show' id='show-button' onclick='show()'>"
+    result += "<input type='button' class='w_button' value='Check' id='check-button' onclick='check()'>"
     result += "</form>";
 
     return result;
 }
 
 function show_question() {
+    if (question_index > kQuestions.length - 1) {
+        question_index = kQuestions.length - 1;
+    }
     const question = kQuestions[question_index];
-    $("#id_id").html(nav_form(question_index + 1 + ": " + question["id"]));
+    $("#id_id").html(nav_form(question_index, question["id"]));
     $("#id_de_question").text(question["de_q"]);
     $("#id_de_answer").html(answers_form(question["de_a"]));
 
