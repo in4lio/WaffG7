@@ -2,7 +2,7 @@ const kQuestions = [
   {
      "id":"1.01",
      "de_q":"Was regelt das Waffengesetz?",
-     "de_a":"Das Waffengesetz regelt den Umgang mit Waffen oder Munition unter Berücksichtigung der Belange der öffentlichen Sicherheit und Ordnung.",
+     "de_a":"Das Waffengesetz regelt den Umgang mit Waffen oder Munition unter Berücksichtigung der Belange der öffentlichen Sicherheit und Ordnung.<br><br>¶ Umgang mit Waffen oder Munition öffentlichen Sicherheit",
      "en_q":"What does the gun law regulate?",
      "en_a":"The Weapons Act regulates the handling of weapons or ammunition, taking into account the interests of public safety and order.",
      "ru_q":"Что регулирует закон об оружии?",
@@ -22,7 +22,7 @@ const kQuestions = [
   {
      "id":"1.03",
      "de_q":"Wie werden Schusswaffen im Sinne des Waffengesetzes definiert?",
-     "de_a":"Schusswaffen sind Gegenstände, die zum Angriff oder zur Verteidigung, zur Signalgebung, zur Jagd, zur Distanzinjektion, zur Markierung, zum Sport oder zum Spiel bestimmt sind und bei denen Geschosse durch einen Lauf getrieben werden (Anlage 1 Ab schnitt 1 Unterabschnitt 1 Nr. 1.1 WaffG).",
+     "de_a":"Schusswaffen sind Gegenstände, die zum Angriff oder zur Verteidigung, zur Signalgebung, zur Jagd, zur Distanzinjektion, zur Markierung, zum Sport oder zum Spiel bestimmt sind und bei denen Geschosse durch einen Lauf getrieben werden (Anlage 1 Ab schnitt 1 Unterabschnitt 1 Nr. 1.1 WaffG).<br><br>¶ zum Angriff oder zur Verteidigung, zur Signalgebung, zur Jagd, zur Distanzinjektion, zur Markierung, zum Sport oder zum Spiel; Geschosse durch einen Lauf getrieben werden",
      "en_q":"How are firearms defined in terms of the Weapons Act?",
      "en_a":"Firearms are objects that are intended for attack or defense, for signaling, hunting, distance injection, marking, sport or play and with which projectiles are driven through a barrel (Annex 1, Section 1, Subsection 1, No. 1.1 WaffG).",
      "ru_q":"Как определяется огнестрельное оружие с точки зрения Закона об оружии?",
@@ -36,7 +36,7 @@ const kQuestions = [
      "en_q":"Which of the items mentioned here are firearms within the meaning of the Weapons Act?",
      "en_a":"a) Crossbow b) Compressed air rifle with approval mark “F in the pentagon” c) Double shotgun",
      "ru_q":"Какие из упомянутых здесь предметов являются огнестрельным оружием по смыслу Закона об оружии?",
-     "ru_a":"a) Арбалет b) Пневматическая винтовка со знаком официального утверждения «F в пятиугольнике» c) Двустворчатое ружье.",
+     "ru_a":"a) Арбалет b) Пневматическая винтовка со знаком официального утверждения «F в пятиугольнике» c) Двуствольное ружье.",
      "c":"bc"
   },
   {
@@ -56,7 +56,7 @@ const kQuestions = [
      "en_q":"Which of the listed weapons is a semi-automatic firearm within the meaning of the Weapons Act?",
      "en_a":"a) Single-action revolver b) Self-loading pistol c) Side-by-side shotgun d) Double-action revolver",
      "ru_q":"Какое из перечисленных видов оружия является полуавтоматическим огнестрельным оружием по смыслу Закона об оружии?",
-     "ru_a":"a) Револьвер одинарного действия b) Самозарядный пистолет c) Ружье параллельного действия d) Револьвер двойного действия",
+     "ru_a":"a) Револьвер одинарного действия b) Самозарядный пистолет c) Двуствольное ружьё d) Револьвер двойного действия",
      "c":"b"
   },
   {
@@ -86,7 +86,7 @@ const kQuestions = [
      "en_q":"What are the essential parts of a semi-automatic pistol in terms of weapons law?",
      "en_a":"1. Barrel (cartridge chamber) 2. Bolt 3. Handle",
      "ru_q":"Каковы основные части полуавтоматического пистолета с точки зрения закона об оружии?",
-     "ru_a":"1. Ствол (патронник) 2. Болт 3. Рукоятка",
+     "ru_a":"1. Ствол (патронник) 2. Затвор 3. Рукоятка",
      "c":"x"
   },
   {
@@ -114,7 +114,7 @@ const kQuestions = [
      "de_q":"Wie unterscheidet das Waffengesetz Langwaffen und Kurzwaffen?",
      "de_a":"a) Langwaffen sind Schusswaffen, deren Lauf und Verschluss in geschlossener Stellung insgesamt länger als 30 cm sind und deren kürzeste bestimmungsgemäß verwendbare Gesamtlänge 60 cm überschreitet. b) Schusswaffen, die eine Gesamtmindestlänge von 60 cm unterschreiten oder bei denen die Lauflänge kleiner als 30 cm ist, werden als Kurzwaffe bezeichnet. c) Kurzwaffen haben maximal eine Länge von 20 cm.",
      "en_q":"How does the Weapons Act differentiate long guns and handguns?",
-     "en_a":"a) Long guns are firearms whose barrel and slide are longer than 30 cm in the closed position and whose shortest total length that can be used as intended is more than 60 cm. b) Firearms with a total length of less than 60 cm or with a barrel length of less than 30 cm are referred to as short weapons. c) Handguns have a maximum length of 20 cm.",
+     "en_a":"a) Long guns are firearms whose barrel and bolt are longer than 30 cm in the closed position and whose shortest total length that can be used as intended is more than 60 cm. b) Firearms with a total length of less than 60 cm or with a barrel length of less than 30 cm are referred to as short weapons. c) Handguns have a maximum length of 20 cm.",
      "ru_q":"Как Закон об оружии различает длинноствольное и ручное огнестрельное оружие?",
      "ru_a":"a) Длинное ружье - это огнестрельное оружие, ствол и затвор которого длиннее 30 см в закрытом положении и кратчайшая общая длина, которая может использоваться по назначению, составляет более 60 см. b) Огнестрельное оружие общей длиной менее 60 см или с длиной ствола менее 30 см считается короткоствольным. c) Пистолеты имеют максимальную длину 20 см.",
      "c":"ab"
@@ -134,9 +134,9 @@ const kQuestions = [
      "de_q":"Welcher der nebenstehend aufgeführten Gegenstände ist eine verbotene Waffe?",
      "de_a":"a) Samuraischwert b) feststehendes Messer mit einer Klinge von mehr als 8,5 cm c) Vorderschaftrepetierflinte mit einer Lauflänge unter 45 cm",
      "en_q":"Which of the items listed opposite is a prohibited weapon?",
-     "en_a":"a) Samurai sword b) Fixed knife with a blade of more than 8.5 cm c) Forearm repeater with a barrel length of less than 45 cm",
+     "en_a":"a) Samurai sword b) Fixed knife with a blade of more than 8.5 cm c) Pump action shotgun with a barrel length of less than 45 cm",
      "ru_q":"Какой из предметов, перечисленных напротив, является запрещенным оружием?",
-     "ru_a":"a) Самурайский меч b) Неподвижный нож с лезвием более 8,5 см c) Репетир цевья с длиной ствола менее 45 см",
+     "ru_a":"a) Самурайский меч b) Неподвижный нож с лезвием более 8,5 см c) Помповое ружье с длиной ствола менее 45 см",
      "c":"c"
   },
   {
@@ -144,9 +144,9 @@ const kQuestions = [
      "de_q":"Bei welchen der aufgeführten Beispiele handelt es sich um „verbotene Waffen“?",
      "de_a":"a) Schusswaffen mit Schalldämpfer b) Schusswaffen, die Reihenfeuer (Dauerfeuer) schießen. c) Für Schusswaffen bestimmte Vorrichtungen, die das Ziel beleuchten. d) Vorderschaftrepetierflinten deren Ge samtlänge in der kürzesten Verwendungsform weniger als 95 cm beträgt.",
      "en_q":"Which of the examples listed are “prohibited weapons”?",
-     "en_a":"a) Firearms with silencers b) Firearms that shoot continuous fire. c) Devices designed for firearms that illuminate the target. d) Forearm repeater shotguns whose total length in the shortest form of use is less than 95 cm.",
+     "en_a":"a) Firearms with silencers b) Firearms that shoot continuous fire. c) Devices designed for firearms that illuminate the target. d) Pump shotguns whose total length in the shortest form of use is less than 95 cm.",
      "ru_q":"Какие из перечисленных примеров относятся к «запрещенному оружию»?",
-     "ru_a":"a) Огнестрельное оружие с глушителями. b) Огнестрельное оружие, стреляющее непрерывным огнем. c) Устройства, предназначенные для огнестрельного оружия, которые освещают цель. d) Ружья с репетиром на предплечье, общая длина которых в самом коротком варианте использования составляет менее 95 см.",
+     "ru_a":"a) Огнестрельное оружие с глушителями. b) Огнестрельное оружие, стреляющее непрерывным огнем. c) Устройства, предназначенные для огнестрельного оружия, которые освещают цель. d) Помповые ружья общая длина которых в самом коротком варианте использования составляет менее 95 см.",
      "c":"bcd"
   },
   {
@@ -184,7 +184,7 @@ const kQuestions = [
      "de_q":"Welches sind wesentliche Teile von Schusswaffen?",
      "de_a":"a) der Lauf b) das Magazin c) der Verschluss d) das Griffstück mit Auslösemechanismus bei Kurzwaffen e) die Trommel eines Revolvers f) das Gehäuse bei Langwaffen g) das Zielfernrohr",
      "en_q":"What are the essential parts of firearms?",
-     "en_a":"a) the barrel b) the magazine c) the breechblock d) the handle with trigger mechanism for handguns e) the drum of a revolver f) the housing for long weapons g) the telescopic sight",
+     "en_a":"a) the barrel b) the magazine c) the bolt d) the handle with trigger mechanism for handguns e) the drum of a revolver f) the housing for long weapons g) the telescopic sight",
      "ru_q":"Каковы основные части огнестрельного оружия?",
      "ru_a":"a) ствол b) магазин c) затвор d) рукоятка с ударно-спусковым механизмом для ручного огнестрельного оружия e) барабан револьвера f) кожух для длинномерного оружия g) оптический прицел",
      "c":"acdef"
@@ -1104,9 +1104,9 @@ const kQuestions = [
      "de_q":"Welche Teile erlaubnispflichtiger Schusswaffen dürfen einzeln nur mit gültiger Erwerbserlaubnis erworben werden?",
      "de_a":"Lauf; Verschluss; Patronen- oder Kartuschenlager; Griffstück bei Kurzwaffen",
      "en_q":"Which parts of firearms requiring a permit may only be purchased individually with a valid purchase permit?",
-     "en_a":"Barrel; breech; Cartridge or Cartridge storage; handle for handguns",
+     "en_a":"Barrel; Bolt; Cartridge or Cartridge storage; handle for handguns",
      "ru_q":"Какие части огнестрельного оружия, требующие разрешения, могут быть приобретены индивидуально только при наличии действующего разрешения на покупку?",
-     "ru_a":"Cтвол; казенная часть; патрон или хранилище патронов; рукоятка для ручного огнестрельного оружия",
+     "ru_a":"Cтвол; затвор; патрон или хранилище патронов; рукоятка для ручного огнестрельного оружия",
      "c":"x"
   },
   {
@@ -1713,9 +1713,9 @@ const kQuestions = [
      "id":"2.82",
      "de_q":"Um Ihre Vorderschaftrepetierflinte leichter transportieren zu können ersetzen Sie den normalen Schaft durch einen Pistolengriff.",
      "de_a":"a) Das ist verboten. b) Änderungen am Schaft sind zulässig, wenn die Waffe danach noch mindestens 61 cm lang ist. c) Das ist nur Jägern erlaubt.",
-     "en_q":"To be able to transport your forearm repeater more easily, replace the normal stock with a pistol grip.",
+     "en_q":"To be able to transport your pump shotgun more easily, replace the normal stock with a pistol grip.",
      "en_a":"a) That is forbidden. b) Changes to the stock are permitted if the weapon is still at least 61 cm long afterwards. c) Only hunters are allowed to do this.",
-     "ru_q":"Чтобы упростить транспортировку репетира на цевье, замените обычный приклад пистолетной рукояткой.",
+     "ru_q":"Чтобы упростить транспортировку Помпового ружья, замените обычный приклад пистолетной рукояткой.",
      "ru_a":"a) Это запрещено. b) Изменения ложи разрешены, если после этого длина оружия все еще составляет не менее 61 см. c) Это разрешено делать только охотникам.",
      "c":"a"
   },
@@ -1996,7 +1996,7 @@ const kQuestions = [
      "en_q":"Which weapons may be given to someone else to shoot without a bullet mark?",
      "en_a":"a) All firearms b) Basically no firearms, except those that were manufactured before January 1, 1891 or for which a firearms office issued a certificate stating that the firearm cannot be fired. c) side-by-side shotguns",
      "ru_q":"Из какого оружия можно дать кому-нибудь стрелять без следа от пули?",
-     "ru_a":"a) Все огнестрельное оружие. b) В основном никакого огнестрельного оружия, за исключением того, которое было изготовлено до 1 января 1891 года или на которое управление огнестрельного оружия выдало сертификат о том, что из огнестрельного оружия нельзя стрелять. c) горизонтальные ружья",
+     "ru_a":"a) Все огнестрельное оружие. b) В основном никакого огнестрельного оружия, за исключением того, которое было изготовлено до 1 января 1891 года или на которое управление огнестрельного оружия выдало сертификат о том, что из огнестрельного оружия нельзя стрелять. c) Двуствольные ружья",
      "c":"b"
   },
   {
@@ -2734,9 +2734,9 @@ const kQuestions = [
      "de_q":"Auf welchen Waffenteilen muss das Beschusszeichen (auch) angebracht sein?",
      "de_a":"a) Lauf, Verschluss b) Schaft, Visier c) Sicherung, Magazin",
      "en_q":"On which weapon parts must the proof mark (also) be affixed?",
-     "en_a":"a) barrel, breech b) stock, visor c) safety, magazine",
+     "en_a":"a) barrel, bolt b) stock, visor c) safety, magazine",
      "ru_q":"На каких частях оружия должен быть (также) проставлен контрольный знак?",
-     "ru_a":"a) ствол, казенная часть b) ложа, козырек c) предохранитель, магазин",
+     "ru_a":"a) ствол, затвор b) ложа, козырек c) предохранитель, магазин",
      "c":"a"
   },
   {
@@ -3454,7 +3454,7 @@ const kQuestions = [
      "de_q":"Was ist eine Kurzwaffe?",
      "de_a":"Eine Kurzwaffe ist eine Schusswaffe, deren Lauf und Verschluss in geschlossener Stellung insgesamt kürzer als 30 cm sind und deren kürzeste bestimmungsgemäße verwendbare die Gesamtlänge von 60 cm nicht überschreitet.",
      "en_q":"What is a handgun?",
-     "en_a":"A handgun is a firearm whose barrel and slide are shorter than 30 cm in total in the closed position and whose shortest intended use does not exceed the total length of 60 cm.",
+     "en_a":"A handgun is a firearm whose barrel and bolt are shorter than 30 cm in total in the closed position and whose shortest intended use does not exceed the total length of 60 cm.",
      "ru_q":"Что такое пистолет?",
      "ru_a":"Пистолет - это огнестрельное оружие, общая длина ствола и затвора которого в закрытом положении составляет менее 30 см, а его кратчайшее предполагаемое использование не превышает общей длины 60 см.",
      "c":"x"
@@ -3574,9 +3574,9 @@ const kQuestions = [
      "de_q":"Was sind „wesentliche Teile“ von Schusswaffen?",
      "de_a":"a) Das Griffstück, oder sonstige Waffenteile von Kurzwaffen, soweit sie für die Aufnahme des Auslösemechanismus bestimmt sind. b) Das Gehäuse c) Der Verschluss d) Das Patronen- oder Kartuschenlager (wenn dieses nicht bereits Bestandteil des Laufes ist)",
      "en_q":"What are “essential parts” of firearms?",
-     "en_a":"a) The handle or other weapon parts of handguns, insofar as they are intended to accommodate the trigger mechanism. b) The housing c) The breech d) The cartridge or cartridge chamber (if this is not already part of the barrel)",
+     "en_a":"a) The handle or other weapon parts of handguns, insofar as they are intended to accommodate the trigger mechanism. b) The housing c) The bolt d) The cartridge or cartridge chamber (if this is not already part of the barrel)",
      "ru_q":"Что является «неотъемлемой частью» огнестрельного оружия?",
-     "ru_a":"a) Рукоять или другие части оружия пистолетов, если они предназначены для размещения спускового механизма. b) Корпус c) Казенник d) Патрон или патронник (если он еще не является частью ствола)",
+     "ru_a":"a) Рукоять или другие части оружия пистолетов, если они предназначены для размещения спускового механизма. b) Корпус c) затвор d) Патрон или патронник (если он еще не является частью ствола)",
      "c":"abcd"
   },
   {
@@ -3596,7 +3596,7 @@ const kQuestions = [
      "en_q":"What is an 'essential part' of a firearm?",
      "en_a":"a) bolt b) trigger c) magazine",
      "ru_q":"Что является «неотъемлемой частью» огнестрельного оружия?",
-     "ru_a":"a) болт b) спусковой крючок c) магазин",
+     "ru_a":"a) затвор b) спусковой крючок c) магазин",
      "c":"a"
   },
   {
@@ -3814,9 +3814,9 @@ const kQuestions = [
      "de_q":"Was versteht man unter einem Kompensator?",
      "de_a":"a) Eine Vorrichtung am Waffenlauf, die das Hochschlagen beim Schuss verringern soll. b) Eine Vorrichtung im Verschluss von halbautomatischen Waffen, die den Rückstoß verringern soll. c) Eine Vorrichtung am Magazin, die dessen Kapazität erhöht.",
      "en_q":"What is a compensator?",
-     "en_a":"a) A device on the barrel of the weapon that is supposed to reduce the knocking up when firing. b) A device in the breech of semi-automatic weapons designed to reduce recoil. c) A device on the magazine that increases its capacity.",
+     "en_a":"a) A device on the barrel of the weapon that is supposed to reduce the knocking up when firing. b) A device in the bolt of semi-automatic weapons designed to reduce recoil. c) A device on the magazine that increases its capacity.",
      "ru_q":"Что такое компенсатор?",
-     "ru_a":"a) Устройство на стволе оружия, которое должно уменьшать подбрасывание при стрельбе. b) Устройство в казенной части полуавтоматического оружия, предназначенное для уменьшения отдачи. c) Устройство на магазине, увеличивающее его емкость.",
+     "ru_a":"a) Устройство на стволе оружия, которое должно уменьшать подбрасывание при стрельбе. b) Устройство в затворе полуавтоматического оружия, предназначенное для уменьшения отдачи. c) Устройство на магазине, увеличивающее его емкость.",
      "c":"a"
   },
   {
@@ -3906,7 +3906,7 @@ const kQuestions = [
      "en_q":"Which of the adjacent firearms can also be semi-automatic weapons?",
      "en_a":"a) Rifles b) Double shotguns c) Pistols",
      "ru_q":"Какое из соседних видов огнестрельного оружия также может быть полуавтоматическим?",
-     "ru_a":"a) Винтовки b) Двойные ружья c) Пистолеты",
+     "ru_a":"a) Винтовки b) Двуствольные ружья c) Пистолеты",
      "c":"ac"
   },
   {
@@ -4336,7 +4336,7 @@ const kQuestions = [
      "en_q":"What do you understand by the term “receiver”?",
      "en_a":"a) Sighting device for special rifles b) Forearm of a 'Pump Action' c) Lock case of a drop barrel rifle",
      "ru_q":"Что вы понимаете под термином «получатель»?",
-     "ru_a":"a) Прицельное приспособление для специальных винтовок b) Цевьё «помпового действия» c) Замок карабина с опускающимся стволом.",
+     "ru_a":"a) Прицельное приспособление для специальных винтовок b) Цевьё «помпового действия» c) Затвор карабина с опускающимся стволом.",
      "c":"c"
   },
   {
@@ -4544,7 +4544,7 @@ const kQuestions = [
      "de_q":"Wie ist eine Kipplaufflinte auf einer Schießstätte zu tragen?",
      "de_a":"a) Gesichert, mit einem Tragriemen auf der Schulter. b) Ungeladen, mit geöffnetem Verschluss. c) Geschlossen und gesichert.",
      "en_q":"How should a single shotgun be carried on a shooting range?",
-     "en_a":"a) Secured, with a shoulder strap. b) Unloaded, with the breech open. c) Closed and secured.",
+     "en_a":"a) Secured, with a shoulder strap. b) Unloaded, with the bolt open. c) Closed and secured.",
      "ru_q":"Как следует носить на стрельбище одиночное ружье?",
      "ru_a":"a) Защищено, с наплечным ремнем. b) Разряженный, с открытым затвором. c) Закрытый и защищенный.",
      "c":"b"
@@ -4734,9 +4734,9 @@ const kQuestions = [
      "de_q":"Eine halbautomatische Pistole entlade ich, indem ich ...",
      "de_a":"a) den Verschluss öffne und das Magazin entleere. b) den Verschluss öffne, das Patronenlager entferne, den Verschluss schließe und das Magazin entnehme. c) das Magazin entnehme, den Verschluss öffne und das Patronenlager entleere.",
      "en_q":"I unload a semi-automatic pistol by ...",
-     "en_a":"a) open the breech and empty the magazine. b) Open the breech, remove the cartridge chamber, close the breech and remove the magazine. c) remove the magazine, open the breech and empty the chamber.",
+     "en_a":"a) open the breech and empty the magazine. b) Open the bolt, remove the cartridge chamber, close the bolt and remove the magazine. c) remove the magazine, open the bolt and empty the chamber.",
      "ru_q":"Я разряжаю полуавтоматический пистолет ...",
-     "ru_a":"a) откройте затвор и опустошите магазин. b) Откройте казенник, снимите патронник, закройте казенник и снимите магазин. c) вынуть магазин, открыть затвор и опорожнить патронник.",
+     "ru_a":"a) откройте затвор и опустошите магазин. b) Откройте затвор, снимите патронник, закройте затвор и снимите магазин. c) вынуть магазин, открыть затвор и опорожнить патронник.",
      "c":"c"
   },
   {
@@ -4744,7 +4744,7 @@ const kQuestions = [
      "de_q":"In welcher Reihenfolge werden halb automatische Waffen entladen?",
      "de_a":"a) Erst nachsehen, ob das Patronenlager frei ist, dann das Magazin entnehmen und durch Abdrücken das Schlagstück entspannen. b) Erst das Magazin entnehmen, Verschluss öffnen, dann das Patronenlager überprüfen; wenn leer, die Waffe, soweit möglich, mit offenem Verschluss ablegen. c) Erst entspannen, sichern, das Magazin entnehmen, ablegen.",
      "en_q":"In what order are semi-automatic weapons unloaded?",
-     "en_a":"a) First check whether the chamber is free, then remove the magazine and release the hammer by pressing the trigger. b) First remove the magazine, open the breech, then check the cartridge cage; When empty, put the weapon down with the breech open as far as possible. c) First relax, secure, remove the magazine, put it down.",
+     "en_a":"a) First check whether the chamber is free, then remove the magazine and release the hammer by pressing the trigger. b) First remove the magazine, open the bolt, then check the cartridge cage; When empty, put the weapon down with the bolt open as far as possible. c) First relax, secure, remove the magazine, put it down.",
      "ru_q":"В каком порядке происходит разгрузка полуавтоматического оружия?",
      "ru_a":"a) Сначала проверьте, свободна ли патронник, затем снимите магазин и отпустите курок, нажав на спусковой крючок. b) Сначала снимите магазин, откройте затвор, затем проверьте обойму патрона; В пустом состоянии опустите оружие с максимально открытым затвором. c) Сначала расслабьтесь, закрепите, выньте магазин, положите его.",
      "c":"b"
@@ -4784,7 +4784,7 @@ const kQuestions = [
      "de_q":"Halbautomatische Pistolen mit Sicherung dürfen auf dem Schützenstand abgelegt werden...",
      "de_a":"a) gesichert und gespannt. b) entladen und mit geöffnetem Verschluss. c) mit sichtbarer Sicherung.",
      "en_q":"Semi-automatic pistols with safety devices may be placed on the shooting range ...",
-     "en_a":"a) secured and tensioned. b) unloaded and with the breech open. c) with visible fuse.",
+     "en_a":"a) secured and tensioned. b) unloaded and with the bolt open. c) with visible fuse.",
      "ru_q":"На стрельбище можно размещать полуавтоматические пистолеты с предохранительными устройствами ...",
      "ru_a":"a) закреплен и натянут. b) без патронов и с открытым затвором. c) с видимым предохранителем.",
      "c":"b"
